@@ -1,0 +1,28 @@
+form {
+    display: flex; justify-content: center; align-items: center;
+    margin: 3rem; position: relative;
+}
+form input {
+    width: 25rem !important; border: 2px solid #fff !important;
+    padding: 1.75rem 2rem !important;
+}
+form input.form-control:focus,  form .btn:focus {
+    box-shadow: none;
+}
+form .btn {
+    margin-left: 1%; padding: 1rem 1rem !important;
+    border: 2px solid #fff; color: #fff;
+}
+form .btn:hover {
+    background: #fff; color: blueviolet;
+    border: 2px solid #fff;
+}
+
+@media (max-width: 575.98px) {
+    form {
+        margin: 3rem 0;
+    }
+    form  input {
+        width: 15rem !important;
+    }
+}

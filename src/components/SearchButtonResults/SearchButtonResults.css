@@ -1,0 +1,42 @@
+.container .row {
+    display: flex; justify-content: center; align-items: center;
+}
+
+.container .row .col-md-5 {
+    margin-bottom: 2%;
+}
+.card {
+    height: 360px; width: 240px;
+}
+.card > div:first-child {
+    height: 65%; width: 100%;
+}
+.card > div:first-child img {
+    height: 100%; width: 100%;
+    object-fit: cover; object-position: top center;
+}
+
+.card .card-body {
+    height: 35%;   padding-right: 10px;
+}
+.card .card-body p  {
+    margin: 0;
+}
+.card .card-body span:last-of-type {
+    margin-left: 10%;
+}
+.card .card-body button {
+    position: absolute; right: 5px; bottom: 5px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+.card .card-body button:hover {
+    background: black; color: #fff;
+    border: 2px solid black;
+}
+
+@media (max-width: 575.98px) {
+    .col-md-5 {
+        display: flex; justify-content: center; align-items: center;
+    }
+}
