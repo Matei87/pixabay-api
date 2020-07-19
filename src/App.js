@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import SearchButton from "./components/SearchButton/SearchButton";
 import SearchButtonResults from './components/SearchButtonResults/SearchButtonResults';
@@ -37,7 +37,7 @@ class App extends Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <Router>
                 <Switch>
                     <React.Fragment>
                         <Header />
@@ -55,7 +55,7 @@ class App extends Component {
                         <Footer />
                     </React.Fragment>
                 </Switch>
-            </BrowserRouter>
+            </Router>
         );
     }
 }
