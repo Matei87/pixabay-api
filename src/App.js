@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import SearchButton from "./components/SearchButton/SearchButton";
 import SearchButtonResults from './components/SearchButtonResults/SearchButtonResults';
