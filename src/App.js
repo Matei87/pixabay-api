@@ -28,7 +28,6 @@ class App extends Component {
         } else {
             this.setState({ images: response.hits, error: null });
         }
-        console.log(response);
 
     };
 
