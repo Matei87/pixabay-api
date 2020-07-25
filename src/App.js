@@ -9,7 +9,6 @@ import Footer from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-
 let API_KEY = '17538426-28a8ebd9211ecf8d22b6cde28';
 
 class App extends Component {
@@ -29,6 +28,7 @@ class App extends Component {
         } else {
             this.setState({ images: response.hits, error: null });
         }
+        console.log(response);
 
     };
 
