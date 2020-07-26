@@ -1,1 +1,3 @@
-React fetch for pixabay api images
+#REACT PROJECT
+
+Fetch pixabay api images
