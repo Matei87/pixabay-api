@@ -3,7 +3,7 @@ import './SearchButton.css'
 
 class SearchButton extends Component {
     state = {
-      inputText: ''
+        inputText: ''
     };
 
     render() {

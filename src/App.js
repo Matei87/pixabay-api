@@ -13,7 +13,7 @@ let API_KEY = '17538426-28a8ebd9211ecf8d22b6cde28';
 
 class App extends Component {
     state = {
-      images: [],
+        images: [],
         error: "Please provide a value !!!"
     };
 
@@ -40,15 +40,15 @@ class App extends Component {
                         <Header />
 
                         {this.state.error !== null ? <Route exact path="/" >
-                                <SearchButton appRequests={this.howdy} />
-                                <h1 style={{textAlign: 'center', marginBottom: '3rem'}}>{this.state.error}</h1>
-                            </Route> : this.state.images.length === 0 ? <Route exact path="/" >
                             <SearchButton appRequests={this.howdy} />
-                            <h1 style={{textAlign: 'center', marginBottom: '3rem'}}>No result !!!</h1>
-                        </Route>: <Route exact path="/" >
+                            <h1 style={{ textAlign: 'center', marginBottom: '3rem' }}>{this.state.error}</h1>
+                        </Route> : this.state.images.length === 0 ? <Route exact path="/" >
                             <SearchButton appRequests={this.howdy} />
-                            <SearchButtonResults imagez={this.state.images} />
-                        </Route> }
+                            <h1 style={{ textAlign: 'center', marginBottom: '3rem' }}>No result !!!</h1>
+                        </Route> : <Route exact path="/" >
+                                    <SearchButton appRequests={this.howdy} />
+                                    <SearchButtonResults imagez={this.state.images} />
+                                </Route>}
 
                         <Route exact path="/image/:id" component={Details} />
                         <Footer />
