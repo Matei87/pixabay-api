@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './SearchButton.css'
 
 class SearchButton extends Component {
-    state = {
-        inputText: ''
-    };
 
     render() {
         return (

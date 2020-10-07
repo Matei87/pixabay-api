@@ -9,8 +9,6 @@ import Footer from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-let API_KEY = '17538426-28a8ebd9211ecf8d22b6cde28';
-
 class App extends Component {
     state = {
         images: [],
@@ -20,7 +18,7 @@ class App extends Component {
     howdy = async (event) => {
         event.preventDefault();
         let serciValue = event.target.searchValue.value;
-        let URL = `https://pixabay.com/api/?key=${API_KEY}&q=${serciValue}&image_type=photo&pretty=true`;
+        let URL = `https://pixabay.com/api/?key=${process.env.REACT_APP_API_KEY}&q=${serciValue}&image_type=photo&pretty=true`;
         let request = await fetch(URL);
         let response = await request.json();
         if (!serciValue) {
