@@ -1,0 +1,21 @@
+nav {
+  height: 80px;
+  width: 100%;
+  background: #555;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+nav .row .col-12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  height: 60px;
+  width: 60px;
+}
+nav p {
+  font-size: 1.15rem;
+  margin: 0 0 0 30%;
+}

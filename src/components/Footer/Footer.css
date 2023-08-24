@@ -1,12 +1,15 @@
 footer {
-    height: 60px; width: 100%;
-    background: darkgrey;
-    display: flex !important; justify-content: center; align-items: center;
-    margin-top: 2rem;
+  height: 60px;
+  width: 100%;
+  background: darkgrey;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 footer p {
-    margin: 0;
+  margin: 0;
 }
 footer p span {
-    color: blueviolet;
+  color: blueviolet;
 }
