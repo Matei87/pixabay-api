@@ -1,26 +1,14 @@
 {
   "files": {
-    "main.css": "/pixabay-api/static/css/main.2dc0fd43.chunk.css",
-    "main.js": "/pixabay-api/static/js/main.54121605.chunk.js",
-    "main.js.map": "/pixabay-api/static/js/main.54121605.chunk.js.map",
-    "runtime-main.js": "/pixabay-api/static/js/runtime-main.e4e9007e.js",
-    "runtime-main.js.map": "/pixabay-api/static/js/runtime-main.e4e9007e.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/pixabay-api/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.61e534d6.chunk.js": "/pixabay-api/static/js/2.61e534d6.chunk.js",
-    "static/js/2.61e534d6.chunk.js.map": "/pixabay-api/static/js/2.61e534d6.chunk.js.map",
+    "main.css": "/pixabay-api/static/css/main.1a71fd64.css",
+    "main.js": "/pixabay-api/static/js/main.f2145310.js",
+    "static/media/2111575.svg": "/pixabay-api/static/media/2111575.b49fe2357c11fb2e037d57a645468062.svg",
     "index.html": "/pixabay-api/index.html",
-    "precache-manifest.4142af528432eddea125bc10ab64327e.js": "/pixabay-api/precache-manifest.4142af528432eddea125bc10ab64327e.js",
-    "service-worker.js": "/pixabay-api/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/pixabay-api/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.2dc0fd43.chunk.css.map": "/pixabay-api/static/css/main.2dc0fd43.chunk.css.map",
-    "static/js/2.61e534d6.chunk.js.LICENSE.txt": "/pixabay-api/static/js/2.61e534d6.chunk.js.LICENSE.txt",
-    "static/media/2111575.svg": "/pixabay-api/static/media/2111575.033f49ac.svg"
+    "main.1a71fd64.css.map": "/pixabay-api/static/css/main.1a71fd64.css.map",
+    "main.f2145310.js.map": "/pixabay-api/static/js/main.f2145310.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4e9007e.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.61e534d6.chunk.js",
-    "static/css/main.2dc0fd43.chunk.css",
-    "static/js/main.54121605.chunk.js"
+    "static/css/main.1a71fd64.css",
+    "static/js/main.f2145310.js"
   ]
 }
