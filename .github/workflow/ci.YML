@@ -1,0 +1,4 @@
+name: KEY
+on: workflow_dispatch
+env:
+  REACT_APP_API_KEY: ${{ env.REACT_APP_API_KEY }}
